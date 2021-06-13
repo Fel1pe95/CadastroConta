@@ -37,8 +37,7 @@ public class ViewNovaContaController implements Initializable {
 			Integer cpF = Integer.parseInt(cpf.getText().toString());
 			Integer senhA = Integer.parseInt(senha.getText().toString());
 			acess.inserirCliente(c.CadastrarCliente(nomE, cpF, senhA));
-			Stage parentStage = Utils.currentStage(event);
-			parentStage.close();
+			
 
 		} catch (Exception e) {
 			Alerts.showAlert("Dados inválidos!", null, "Insira os dados para cadastro!", AlertType.WARNING);

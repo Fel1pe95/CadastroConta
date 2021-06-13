@@ -34,7 +34,11 @@ public class ViewMenuController {
 		
 	}
 	@FXML
-	public void onRemoverAction() {}
+	public void onRemoverAction(ActionEvent event) {
+		Utils util = new Utils ();
+		Stage parentStage = Utils.currentStage(event);
+		util.formulario(parentStage, "/gui/ViewRemover.fxml", "Remover Cliente");
+	}
 	@FXML
 	public void onSariAction(ActionEvent event) {
 		Stage parentStage = Utils.currentStage(event);
