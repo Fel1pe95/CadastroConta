@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewMenuController">
+   <children>
+      <Button fx:id="novaConta" layoutX="127.0" layoutY="58.0" mnemonicParsing="false" onAction="#onNovaContaAction" text="Nova conta" />
+      <Button fx:id="consulta" layoutX="134.0" layoutY="104.0" mnemonicParsing="false" onAction="#onConsultaAction" text="Consulta" />
+      <Button fx:id="remover" layoutX="133.0" layoutY="150.0" mnemonicParsing="false" onAction="#onRemoverAction" text="Remover" />
+      <Button fx:id="sair" layoutX="148.0" layoutY="300.0" mnemonicParsing="false" onAction="#onSariAction" text="sair" />
+   </children>
+</AnchorPane>
